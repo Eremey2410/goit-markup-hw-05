@@ -180,9 +180,7 @@ body {
     url(../images/overlay.jpg);
   background-color: #c4c4c4;
 }
-.footer {
-  background-color: #2f303a;
-}
+
 .hero-title {
   margin-top: 0;
   margin-bottom: 0;
@@ -486,11 +484,14 @@ body {
 .clients-item + .clients-item {
   margin-left: 30px;
 }
+
 /* footer */
 
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+
+  background-color: #2f303a;
 }
 
 .footer-logotype {
