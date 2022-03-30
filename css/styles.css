@@ -18,7 +18,7 @@ body {
   background-color: var(--white-color);
 }
 
-/* logo */
+/*------------ logo --------------*/
 
 .header-logotype,
 .footer-logotype {
@@ -52,7 +52,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-/* header */
+/*------------ header --------------*/
 
 .header {
   padding: 25px 0;
@@ -123,7 +123,7 @@ body {
   transition: color 250ms var(--timing-function);
 }
 
-/* contact */
+/*------------ contact --------------*/
 
 .header-contact {
   display: inline-flex;
@@ -167,7 +167,8 @@ body {
 
   transition: color 250ms var(--timing-function);
 }
-/* section hero*/
+
+/*------------ hero --------------*/
 
 .hero {
   padding: 200px 0;
@@ -194,7 +195,7 @@ body {
   color: var(--white-color);
 }
 
-/* button */
+/*------------ button --------------*/
 
 .hero-btn {
   margin-top: 30px;
@@ -214,7 +215,8 @@ body {
   color: var(--white-color);
 }
 
-/* section features */
+/*------------ section features --------------*/
+
 .features {
   margin-top: 0;
   margin-bottom: 0;
@@ -274,7 +276,7 @@ body {
   color: var(--primary-text-color);
 }
 
-/* section work */
+/*------------ section work --------------*/
 
 .work {
   margin-top: 0px;
@@ -336,7 +338,7 @@ body {
   display: block;
 }
 
-/* section comand */
+/*------------ section comand --------------*/
 
 .comand {
   margin-top: 0px;
@@ -435,7 +437,7 @@ body {
   transition: fill 250ms var(--timing-function), background-color 250ms var(--timing-function);
 }
 
-/* section clients */
+/*------------ section clients --------------*/
 
 .clients {
   padding-top: 94px;
@@ -485,7 +487,8 @@ body {
   margin-left: 30px;
 }
 
-/* modal */
+/*------------ modal --------------*/
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -515,7 +518,7 @@ body {
   border-radius: 4px;
 }
 .btn-modal {
-  display: inline-block;
+  display: block;
   width: 30px;
   height: 30px;
   margin-top: 8px;
@@ -525,9 +528,11 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .modal-svg {
+  background-image: url(../images/Vector.svg);
+  background-size: cover;
 }
 
-/* footer */
+/*------------ footer --------------*/
 
 .footer {
   padding-top: 60px;
@@ -605,7 +610,7 @@ body {
   margin-left: 10px;
 }
 
-/* ***portfolio*** */
+/*------------ portfolio --------------*/
 
 .portfolio {
   font-family: roboto, sans-serif;
@@ -657,7 +662,7 @@ body {
   margin-left: 8px;
 }
 
-/* section progect */
+/*------------ section progect --------------*/
 
 .progect-list {
   display: flex;
